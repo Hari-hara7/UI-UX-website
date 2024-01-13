@@ -1,0 +1,70 @@
+<style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            margin-right: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .hero {
+            background: #f0f0f0;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .courses, .projects {
+            padding: 50px 0;
+        }
+
+        .course-card, .project-card {
+            border: 1px solid #8b7a7a;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #000000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            text-align: center;
+        }
+
+        footer .footer-content p {
+            margin: 5px 0;
+        }
+    </style>
